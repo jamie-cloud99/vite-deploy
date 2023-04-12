@@ -17,7 +17,7 @@ echo > .nojekyll
 
 git init
 git checkout -B main
-git add .
+git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://jamie-cloud99.github.io
